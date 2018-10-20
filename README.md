@@ -13,9 +13,9 @@ Vamos começar montando o esquelto da nossa página:
 
 1. Crie um diretório com o nome cv no seu desktop;
 
-2. Dentro desse diretório, crie 2 arquivos (index.html e style.css) e um diretório (images).
+2. Dentro desse diretório, crie 2 arquivos (index.html e style.css) e um diretório (images);
 
-3. Clique com o botão direito do mouse na imagem do Homer abaixo, escolha a opção "Salvar imagem como..." e grave a imagem com o nome profile.jpg dentro do diretório images do seu projeto.
+3. Clique com o botão direito do mouse na imagem do Homer abaixo, escolha a opção "Salvar imagem como..." e grave a imagem com o nome profile.jpg dentro do diretório images do seu projeto;
 
 ![Homer Simpson](https://raw.githubusercontent.com/lemerodrigo/cv-workshop/master/img/profile.jpg "Homer Simpson")
 
@@ -31,18 +31,18 @@ Vamos começar montando o esquelto da nossa página:
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+  <!-- Main container -->
   <div id="container">
-
-    <!-- Main Info -->
+    <!-- Main info -->
     <section id="main-info">
       <img src="images/profile.jpg" alt="Homer Simpson profile picture" />
       <h1>Homer Jay Simpson</h1>
       <h2>Versitile employee, currently working at Springfield's Power Plant</h2>
       <p>This can be a longer description about the person's goals adipiscing elit. Aenean sit amet egestas ligula. Sed tincidunt urna erat, sit amet vehicula est imperdiet quis. Fusce a ullamcorper ex. Sed et lacus tristique, commodo nulla ac, fermentum arcu. Aliquam facilisis mauris mauris, eu volutpat tellus vehicula sit amet. Duis nisl elit, tempus vitae.</p>
     </section>
-    <!-- /Main Info -->
+    <!-- /Main info -->
         
-    <!-- Contact Info -->
+    <!-- Contact info -->
     <section id="contact-info">
       <h2>Contact Info</h2>
       <div>
@@ -58,7 +58,7 @@ Vamos começar montando o esquelto da nossa página:
         </ul>
       </div>
     </section>
-    <!-- /Contact Info -->
+    <!-- /Contact info -->
   
     <!-- Education -->
     <section id="education">
@@ -105,7 +105,7 @@ Obs.: para cada alteração que você fizer no arquivo index.html ou no style.cs
 
 ### Font Awesome
 
-1. Acrescente a linha abaixo dentro da tag <head> do seu arquivo index.html sem excluir as linhas que já estavam por lá.
+1. Acrescente a linha abaixo dentro da tag **head** do seu arquivo index.html sem excluir as linhas que já estavam por lá.
 
 ```css
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
@@ -114,7 +114,7 @@ Obs.: para cada alteração que você fizer no arquivo index.html ou no style.cs
 2. Agora vamos modificar o conteúdo da seção Contact Info acrescentando alguns ícones nos nossos itens:
 
 ```html
-<!-- Contact Info -->
+<!-- Contact info -->
 <section id="contact-info">
   <h2>Contact Info</h2>
   <div>
@@ -131,10 +131,12 @@ Obs.: para cada alteração que você fizer no arquivo index.html ou no style.cs
     </ul>
   </div>
 </section>
-<!-- /Contact Info -->
+<!-- /Contact info -->
 ```
 
-3. Agora vamos colocar a folha de estilo que irá deixar a aparência do currículo do Homer muito mais amigável. Para fazer isso, edite o arquivo style.css e coloque todo o conteúdo abaixo.
+### Folhas de estilo/CSS
+
+1. Vamos colocar a folha de estilo que irá deixar a aparência do currículo do Homer muito mais amigável. Para fazer isso, edite o arquivo style.css e coloque todo o conteúdo abaixo:
 
 ```css
 @import url('https://zfonts.googleapis.com/css?family=Roboto:400,500,500i,900');
@@ -260,13 +262,13 @@ footer {
 /********** /CREDITS **********/
 ```
 
-4. Agora que já temos nosso arquivo de estilo, vamos dizer que nosso HTML deve utilizá-la. Para isso, basta acrescentar mais uma linha no head conforme indicação abaixo:
+2. Agora que já temos nosso arquivo de estilo, vamos dizer que nosso HTML deve utilizá-lo. Para isso, basta acrescentar mais uma linha no head conforme indicação abaixo:
 
 ```html
 <link rel="stylesheet" type="text/css" href="style.css" />
 ```
 
-5. Pronto, o currículo do Home Simpson está pronto, com uma boa apresentação e responsivo! \o/
+3. Pronto, o currículo do Home Simpson está pronto, com uma boa apresentação e responsivo! \o/
 
 ### Processo de publicação
 
