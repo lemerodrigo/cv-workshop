@@ -15,7 +15,7 @@ Vamos começar montando o esquelto da nossa página:
 
 2. Dentro desse diretório, crie 2 arquivos (index.html e style.css) e um diretório (images);
 
-![Structure](https://raw.githubusercontent.com/lemerodrigo/cv-workshop/master/img/structure.gif)
+![Structure](https://raw.githubusercontent.com/lemerodrigo/cv-workshop/master/img/structure.png)
 
 3. Clique com o botão direito do mouse na imagem do Homer abaixo, escolha a opção "Salvar imagem como..." e grave a imagem com o nome profile.jpg dentro do diretório images do seu projeto;
 
