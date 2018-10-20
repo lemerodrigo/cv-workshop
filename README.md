@@ -15,6 +15,8 @@ Vamos começar montando o esquelto da nossa página:
 
 2. Dentro desse diretório, crie 2 arquivos (index.html e style.css) e um diretório (images);
 
+![Structure](https://raw.githubusercontent.com/lemerodrigo/cv-workshop/master/img/structure.gif)
+
 3. Clique com o botão direito do mouse na imagem do Homer abaixo, escolha a opção "Salvar imagem como..." e grave a imagem com o nome profile.jpg dentro do diretório images do seu projeto;
 
 ![Homer Simpson](https://raw.githubusercontent.com/lemerodrigo/cv-workshop/master/img/profile.jpg "Homer Simpson")
@@ -286,7 +288,11 @@ Existem várias formas de deixar uma página pública na internet. Vamos mostrar
 
 1. Abra seu Google Drive, crie uma pasta, vá na opção de compartilhamento e selecione a opção: qualquer um na internet pode achar e ver.
 
+![Google drive](https://raw.githubusercontent.com/lemerodrigo/cv-workshop/master/img/drive-hosting.png)
+
 2. Acesse o [DriveToWeb](https://drv.tw/), escolha a opção Google Drive.
+
+![DRVTW](https://raw.githubusercontent.com/lemerodrigo/cv-workshop/master/img/drvtw.png)
 
 3. Faça o login com a sua conta e permita o acesso aos seus arquivos (caso se sinta desconfortável com isso, crie uma conta Gmail apenas para armazenar seus arquivos públicos).
 
