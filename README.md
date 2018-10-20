@@ -276,7 +276,7 @@ footer {
 
 3. Agora volte no navegador e atualize a página!
 
-[MEME](https://gph.is/1fLTg33)
+![MEME](https://gph.is/1fLTg33)
 
 4. Pronto, o currículo do Home Simpson está pronto, com uma boa apresentação e responsivo! \o/
 
