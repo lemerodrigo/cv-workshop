@@ -103,6 +103,12 @@ Vamos começar montando o esquelto da nossa página:
 
 Obs.: para cada alteração que você fizer no arquivo index.html ou no style.css, lembre-se de validar essa alteracão voltando para a janela do navegador e recarregando a página.
 
+**IMPORTANTE!**
+
+Antes de continuar, abra o navegador, clique em arquivo -> abrir e escolha o arquivo index.html que você criou e que está na raiz do seu projeto (diretório cv que está no desktop).
+
+Como pode-se notar, neste ponto já temos uma página mas, com pouca ou nenhuma apresentação.
+
 ### Font Awesome
 
 1. Acrescente a linha abaixo dentro da tag **head** do seu arquivo index.html sem excluir as linhas que já estavam por lá.
@@ -268,7 +274,11 @@ footer {
 <link rel="stylesheet" type="text/css" href="style.css" />
 ```
 
-3. Pronto, o currículo do Home Simpson está pronto, com uma boa apresentação e responsivo! \o/
+3. Agora volte no navegador e atualize a página!
+
+(https://gph.is/1fLTg33)
+
+4. Pronto, o currículo do Home Simpson está pronto, com uma boa apresentação e responsivo! \o/
 
 ### Processo de publicação
 
