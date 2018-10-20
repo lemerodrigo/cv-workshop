@@ -1,0 +1,121 @@
+@import url('https://zfonts.googleapis.com/css?family=Roboto:400,500,500i,900');
+
+* {
+  font-family: 'Roboto-Mono', monospace;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+#container {
+  margin: 0 auto 0 auto;
+  padding-bottom: 50px;
+}
+
+section {
+  padding: 35px;
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+/********** MAIN INFO **********/
+#main-info {
+  color: white;
+  flex-wrap: nowrap;
+  background-color: #181B23;
+}
+
+#main-info h2 {
+  color: #2DC5FA;
+  font-size: 1.2em;
+  margin: 10px 0 10px 0;
+  line-height: 1.5em;
+}
+
+#main-info p {
+  line-height: 1.5em;
+}
+
+#main-info img {
+  width: 20%;
+  border: 6px solid #2DC5FA;
+  border-radius: 50%;
+  margin: 0 0 25px 25px;
+  float: right;
+}
+/********** /MAIN INFO **********/
+
+/********** CONTACT INFO **********/
+#contact-info > div {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#contact-info > div > ul {
+  width: 300px;
+}
+
+#contact-info ul li a {
+  color: #181B23;
+  text-decoration: none;
+}
+
+#contact-info ul li a:hover {
+  color: #2DC5FA;
+}
+
+#contact-info ul li {
+  list-style-type: none;
+  line-height: 2.0em;
+}
+
+#contact-info ul li i {
+  margin-right: 10px;
+}
+/********** /CONTACT INFO **********/
+
+/********** EDUCATION ***********/
+#education {
+  background-color: #efefef;
+}
+
+#education > div {
+  margin-top : 25px;
+}
+/********** /EDUCATION ***********/
+
+/********** SKILLS ***********/
+#skills li {
+  list-style-type: none;
+  display: inline;
+  line-height: 3.0em;
+  border: 2px solid #2DC5FA;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+}
+
+#skills li:hover {
+  background-color: #181B23;
+  color: #ffffff;
+  border: 2px solid #2DC5FA;
+}
+/********** SKILLS ***********/
+
+/********** CREDITS **********/
+footer {
+  text-align: center;
+  padding: 10px;
+}
+/********** /CREDITS **********/
