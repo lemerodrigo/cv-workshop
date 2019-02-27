@@ -147,7 +147,7 @@ Como pode-se notar, neste ponto já temos uma página mas, com pouca ou nenhuma 
 1. Vamos colocar a folha de estilo que irá deixar a aparência do currículo do Homer muito mais amigável. Para fazer isso, edite o arquivo style.css e coloque todo o conteúdo abaixo:
 
 ```css
-@import url('https://zfonts.googleapis.com/css?family=Roboto:400,500,500i,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,500i,900');
 
 * {
   font-family: 'Roboto-Mono', monospace;
